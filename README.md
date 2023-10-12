@@ -5,7 +5,7 @@ This Express App API generates a hashed salt for secret keys.
 To use this repository:
 
 ```
-git clone https://github.com/raishudesu/express-app-ts
+git clone https://github.com/raishudesu/s-key-gen
 ```
 
 ## Move to its directory:
