@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 
-const defaultRoute = async (req: Request, res: Response) => {
+const defaultContoller = async (req: Request, res: Response) => {
   try {
     return res
       .status(200)
@@ -12,4 +12,4 @@ const defaultRoute = async (req: Request, res: Response) => {
   }
 };
 
-export default defaultRoute;
+export default defaultContoller;
