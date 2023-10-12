@@ -1,6 +1,6 @@
 ## s-key-gen
 
-This Express App API generates hashed salt.
+This Express App API generates a hashed salt for secret keys.
 
 To use this repository:
 
