@@ -4,7 +4,7 @@ import { Request, Response } from "express";
 const generateSecret = async (req: Request, res: Response) => {
   try {
     const secret = bcrypt.genSaltSync(10);
-    return res.json(secret);
+    return res.status(200).json(secret);
   } catch (error) {
     return res
       .status(500)

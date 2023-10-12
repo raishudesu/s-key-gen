@@ -1,5 +1,6 @@
 import express from "express";
 import { generate } from "./routes/generate";
+import defaultRoute from "./controllers/defaultController";
 
 const app = express();
 
@@ -10,6 +11,7 @@ app.use((req, res, next) => {
 });
 
 // routes
+app.use("/", defaultRoute);
 app.use("/generate-key", generate);
 
 app.listen(4000, () => {
